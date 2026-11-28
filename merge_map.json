@@ -1,0 +1,16 @@
+{
+ "version": 1,
+ "apps": [
+  {
+   "name": "TradingHub-project",
+   "type": "gradle",
+   "appDir": "app",
+   "mods": {
+    "app": "TradingHub_project_app"
+   },
+   "pkg": "com.example.tradinghub",
+   "activity": "com.example.hub.HubActivity",
+   "attrs": " android:allowBackup=\"false\"\n        android:label=\"Trading Hub\"\n        android:theme=\"@style/Theme.App\""
+  }
+ ]
+}
